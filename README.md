@@ -31,7 +31,7 @@ The goal of this project is to showcase backend engineering practices including 
 The project follows a **modular and scalable structure**:
 
 ```
-src/
+ /
  ├── config/        # Database connection
  ├── models/        # Mongoose schemas
  ├── controllers/   # Request handling logic
@@ -238,8 +238,8 @@ Returns:
 ### 1. Clone the repository
 
 ```
-git clone <your-repo-url>
-cd project-folder
+git clone https://github.com/Vidittamrakar21/zorvyn.git
+cd zorvyn
 ```
 
 ### 2. Install dependencies
@@ -258,7 +258,7 @@ JWT_SECRET=your_secret_key
 ### 4. Run server
 
 ```
-node src/server.js
+node server.js
 ```
 
 Server runs on:
